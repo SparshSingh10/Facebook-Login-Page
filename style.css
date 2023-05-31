@@ -1,0 +1,143 @@
+
+/* navbar */
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4267B2;
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.log p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#alert{
+    color: aquamarine;
+}
+.div1{
+    border-spacing: 30px;
+    margin-top: -4px;
+    margin-left: 20px;
+
+}
+.div1 p{
+    padding-bottom: 4px;
+}
+.name{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    position: relative;
+    bottom: -5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn1{
+        padding: 5px 10px;
+        color: rgb(213, 206, 206);
+        border-radius: 5px;
+        display: inline-block;
+        background-color: rgb(40, 112, 150);
+        font-weight: bold;
+        margin-top: 12px;
+        font-size: 15px;
+    }
+
+
+    /* main page */
+
+    .first img{
+        height: 295px;
+        
+    }
+
+    .main{
+        display: flex;
+        background-color: #E9EBEE;
+        height: 800px;
+        padding: 30px;
+
+    }
+    .first h3{
+        padding: 35px;
+        color: black;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 675px;
+    }
+
+    .second{
+        padding: 35px;
+    }
+    .login{
+        padding: 12px;
+    }
+    .main input{
+        margin-top: -12px;
+        max-width: 300px;
+    }
+    .main label{
+        display: inline-block;
+        height: 0px;
+        width: 103px;
+        text-align: end;
+    }
+    .d1 h3{
+        font-family: Arial, Helvetica, sans-serif;
+       
+    
+    }
+    .d1 p{
+        padding-bottom: 3px;
+    }
+    b{
+        color: aqua;
+    }
+    .notebox{
+        position: relative;
+        left: 48px;
+    }
+    .notebox p{
+        font-size: 13px;
+        max-width: 281px;
+    }
+    .notebox b{
+        font-size: 13px;
+    }
+    .btn2{
+        padding: 5px 10px;
+        color: white;
+        /* border-radius: 5px; */
+        display: inline-block;
+        background-color: rgb(12, 140, 14);
+        font-weight: bold;
+        margin-top: 12px;
+        font-size: 15px;
+        position: relative;
+        left: 49px;
+        top: 38px;
+        width: 117px;
+    }
+    /* .frm{
+        width: 300px;
+    } */
+    .main #fname{
+        width: 400px;
+        height: 30px;
+    }
+    .main #lname{
+        width: 400px;
+        height: 30px;
+    }
